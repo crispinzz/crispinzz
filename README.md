@@ -2,9 +2,12 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:050505,50:282828,100:686868&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"/>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=crispinzz&style=flat-square&color=303030&label=PROFILE+VIEWS"/>
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=750&lines=Gabriel+Crispin;Developer+%26+Product+Builder;Ideas+are+better+when+they+work.;Build.+Test.+Improve."
+    alt="Typing SVG"
+  />
+</a>
 
 </div>
 
@@ -134,7 +137,7 @@ src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cr
 
 <img
 height="180"
-src="https://streak-stats.demolab.com?user=crispinzz&theme=dark&hide_border=true&background=0D1117&ring=FFFFFF&fire=A1A1AA&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=777777"
+src="https://streak-stats.demolab.com?user=crispinzz&theme=dark&hide_border=true&background=0D1117&ring=FFFFFF&fire=A1A1AA&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=777777&timezone=America%2FSao_Paulo"
 />
 
 </div>
@@ -159,12 +162,10 @@ src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?u
 <div align="center">
 
 <a href="https://github.com/crispinzz">
-
-<img
-width="100%"
-src="https://github-readme-activity-graph.vercel.app/graph?username=crispinzz&bg_color=0D1117&color=AAAAAA&line=FFFFFF&point=FFFFFF&area=true&area_color=303030&hide_border=true&title_color=FFFFFF"
-/>
-
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=crispinzz&bg_color=0D1117&color=AAAAAA&line=FFFFFF&point=FFFFFF&area=true&area_color=303030&hide_border=true&title_color=FFFFFF"
+  />
 </a>
 
 </div>
