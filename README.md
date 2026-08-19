@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:050505,50:282828,100:686868&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=031647&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"/>
 
 <a href="https://git.io/typing-svg">
   <img
@@ -239,4 +239,4 @@ src="https://github-readme-activity-graph.vercel.app/graph?username=crispinzz&bg
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:050505,50:282828,100:686868"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=031647"/>
