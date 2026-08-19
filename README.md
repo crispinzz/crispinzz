@@ -2,13 +2,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:050505,50:282828,100:686868&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"/>
 
-<a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=750&lines=Gabriel+Crispin;Developer+%26+Product+Builder;Ideas+are+better+when+they+work.;Build.+Test.+Improve."
-    alt="Typing SVG"
-  />
-</a>
-
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=crispinzz&style=flat-square&color=303030&label=PROFILE+VIEWS"/>
