@@ -53,7 +53,7 @@ Repeat         →  Keep moving
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,python,cs,git,github,vscode&theme=dark&perline=10"/>
+<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,python,git,github,vscode&theme=dark&perline=9"/>
 
 </div>
 
@@ -62,7 +62,7 @@ Repeat         →  Keep moving
 ```text
 Frontend       →  JavaScript / TypeScript / React
 Web            →  HTML / CSS
-Software       →  Python / C#
+Software       →  Python
 Versioning     →  Git / GitHub
 Environment    →  VS Code
 ```
