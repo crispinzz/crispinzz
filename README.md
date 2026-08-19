@@ -136,7 +136,7 @@ That means exploring how software behaves outside the editor — when someone ac
 
 <img
 height="180"
-src="https://github-readme-stats.vercel.app/api?username=crispinzz&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=A1A1AA&icon_color=FFFFFF&rank_icon=github&number_format=long"
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=crispinzz&theme=github_dark&animation=load&duration=2.5&hide_logo=true"
 />
 
 <img
