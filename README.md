@@ -180,31 +180,6 @@ src="https://github-readme-activity-graph.vercel.app/graph?username=crispinzz&bg
 
 <br/>
 
-## Contributions
-
-<div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/crispinzz/crispinzz/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/crispinzz/crispinzz/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="GitHub contribution snake"
-    src="https://raw.githubusercontent.com/crispinzz/crispinzz/output/github-contribution-grid-snake-dark.svg"
-  />
-</picture>
-
-</div>
-
----
-
-<br/>
-
 ## How I work
 
 ```text
