@@ -1,9 +1,8 @@
-````markdown
 <div align="center">
 
 <img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:2C2F8F,50:4F46E5,100:7C5CFF&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"
+width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:2C2F8F,50:4F46E5,100:7C5CFF&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"
 />
 
 <a href="https://git.io/typing-svg">
@@ -92,15 +91,15 @@ A parte que mais gosto é entender como todas essas partes influenciam umas às 
 <div align="center">
 
 <img
-  width="49%"
-  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=crispinzz&theme=github_dark"
-  alt="Estatísticas do GitHub"
+width="49%"
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=crispinzz&theme=github_dark"
+alt="Estatísticas do GitHub"
 />
 
 <img
-  width="49%"
-  src="https://streak-stats.demolab.com?user=crispinzz&theme=dark&hide_border=true&background=111827&stroke=1F2937&ring=7C5CFF&fire=A5B4FC&currStreakNum=A5B4FC&sideNums=FFFFFF&currStreakLabel=818CF8&sideLabels=FFFFFF&dates=94A3B8&timezone=America%2FSao_Paulo"
-  alt="Sequência de contribuições no GitHub"
+width="49%"
+src="https://streak-stats.demolab.com?user=crispinzz&theme=dark&hide_border=true&background=111827&stroke=1F2937&ring=7C5CFF&fire=A5B4FC&currStreakNum=A5B4FC&sideNums=FFFFFF&currStreakLabel=818CF8&sideLabels=FFFFFF&dates=94A3B8&timezone=America%2FSao_Paulo"
+alt="Sequência de contribuições no GitHub"
 />
 
 </div>
@@ -132,4 +131,3 @@ A parte que mais gosto é entender como todas essas partes influenciam umas às 
 </div>
 
 <br/>
-````
