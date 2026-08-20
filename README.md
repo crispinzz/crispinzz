@@ -2,12 +2,12 @@
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:050505,50:6d28d9,100:a855f7&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"
+  src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&color=0:2C2F8F,50:4F46E5,100:7C5CFF&text=GABRIEL%20CRISPIN&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38"
 />
 
 <a href="https://git.io/typing-svg">
   <img
-    src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=30&pause=1000&color=C084FC&center=true&vCenter=true&width=750&lines=Developer+%26+Product+Builder;Software+%2F+Products+%2F+Automation;Build.+Test.+Improve."
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1000&color=818CF8&center=true&vCenter=true&width=850&lines=Developer+%26+Product+Builder;Software+%2F+Products+%2F+Automation;Build.+Test.+Improve."
     alt="Typing SVG"
   />
 </a>
@@ -93,7 +93,7 @@ The part I enjoy most is understanding how these pieces influence each other onc
 
 <img
   width="49%"
-  src="https://streak-stats.demolab.com?user=crispinzz&theme=dark&hide_border=true&background=0D1117&stroke=21262D&ring=A855F7&fire=C084FC&currStreakNum=C084FC&sideNums=FFFFFF&currStreakLabel=C084FC&sideLabels=FFFFFF&dates=8B949E&timezone=America%2FSao_Paulo"
+  src="https://streak-stats.demolab.com?user=crispinzz&theme=dark&hide_border=true&background=111827&stroke=1F2937&ring=7C5CFF&fire=A5B4FC&currStreakNum=A5B4FC&sideNums=FFFFFF&currStreakLabel=818CF8&sideLabels=FFFFFF&dates=94A3B8&timezone=America%2FSao_Paulo"
   alt="GitHub Streak"
 />
 
@@ -108,7 +108,7 @@ The part I enjoy most is understanding how these pieces influence each other onc
 <a href="https://github.com/crispinzz">
   <img
     width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=crispinzz&bg_color=0D1117&color=C9D1D9&line=A855F7&point=C084FC&area=true&area_color=6D28D9&hide_border=true&title_color=C084FC"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=crispinzz&bg_color=111827&color=CBD5E1&line=7C5CFF&point=A5B4FC&area=true&area_color=4F46E5&hide_border=true&title_color=818CF8"
     alt="GitHub Activity Graph"
   />
 </a>
