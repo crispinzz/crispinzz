@@ -16,16 +16,32 @@
 ## About
 
 ```text
+◈  Name       →  Gabriel Crispin
 ◈  Role       →  Developer / Product Builder
 ◈  Focus      →  Software / Products / Automation
+◈  Location   →  Maringá, PR — Brazil
+◈  Age        →  14
 ◈  Approach   →  Build / Test / Improve
 ```
 
-I build software and explore the path between an idea and a product that actually works.
+I build software and explore the entire path between an idea and a product that actually works.
 
-I'm interested in understanding the problem behind it, deciding what should be built, shaping the interface, testing assumptions and improving what happens after the first version is running.
+I'm interested not only in writing code, but in understanding the problem behind it, deciding what should be built, shaping the interface, testing assumptions and improving what happens after the first version is running.
 
-For me, development is less about collecting technologies and more about using them to turn ideas into something concrete.
+For me, development is less about collecting technologies and more about learning how to use them to turn ideas into something concrete.
+
+<br/>
+
+```text
+Problem        →  Understand what actually needs solving
+Idea           →  Find a possible direction
+Prototype      →  Make the idea tangible
+Build          →  Turn decisions into software
+Test           →  Find what doesn't work
+Feedback       →  Learn from real use
+Improve        →  Make the next version better
+Repeat         →  Keep moving
+```
 
 ---
 
@@ -108,14 +124,6 @@ src="https://streak-stats.demolab.com?user=crispinzz&theme=dark&hide_border=true
 </div>
 
 ---
-
-## How I Work
-
-```text
-IDEA → CONTEXT → PROBLEM → PROTOTYPE → BUILD
-                                        ↓
-REPEAT ← IMPROVE ← FEEDBACK ← TEST
-```
 
 <br/>
 
