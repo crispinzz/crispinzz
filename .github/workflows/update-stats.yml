@@ -1,0 +1,35 @@
+name: Atualizar estatísticas
+
+# Regera assets/contributions.svg e assets/stats.svg com os dados reais do
+# calendário de contribuições. Roda todo dia, quando o gerador muda e sob demanda.
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # 06:00 em São Paulo
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar SVGs
+        run: python3 scripts/build_stats.py ${{ github.repository_owner }}
+
+      - name: Commitar se mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: atualizar estatísticas [skip ci]"
+          git push
