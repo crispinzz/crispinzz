@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="253" viewBox="0 0 840 253" role="img" aria-labelledby="t">
-<title id="t">Gráfico de contribuições de crispinzz no GitHub: 309 no último ano</title>
+<title id="t">crispinzz&#x27;s GitHub contribution graph: 312 in the last year</title>
 <style>
 text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 .cur{animation:blink 1s steps(1) infinite}
@@ -13,22 +13,22 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Me
 <text x="420.0" y="20" text-anchor="middle" font-size="12" fill="#8b949e">crispinzz@github: ~/contributions</text>
 <line x1="1" y1="32.5" x2="839" y2="32.5" stroke="#30363d"/>
 <text x="24" y="62" font-size="14" xml:space="preserve"><tspan fill="#39d353">crispinzz@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">./contributions.sh </tspan><tspan class="cur" fill="#e6edf3">█</tspan></text>
-<text x="64" y="94" font-size="12" fill="#8b949e">out</text>
-<text x="120" y="94" font-size="12" fill="#8b949e">nov</text>
-<text x="190" y="94" font-size="12" fill="#8b949e">dez</text>
-<text x="246" y="94" font-size="12" fill="#8b949e">jan</text>
-<text x="302" y="94" font-size="12" fill="#8b949e">fev</text>
-<text x="358" y="94" font-size="12" fill="#8b949e">mar</text>
-<text x="428" y="94" font-size="12" fill="#8b949e">abr</text>
-<text x="484" y="94" font-size="12" fill="#8b949e">mai</text>
-<text x="554" y="94" font-size="12" fill="#8b949e">jun</text>
-<text x="610" y="94" font-size="12" fill="#8b949e">jul</text>
-<text x="666" y="94" font-size="12" fill="#8b949e">ago</text>
-<text x="736" y="94" font-size="12" fill="#8b949e">set</text>
-<text x="792" y="94" font-size="12" fill="#8b949e">out</text>
-<text x="56" y="127" text-anchor="end" font-size="11" fill="#8b949e">seg</text>
-<text x="56" y="155" text-anchor="end" font-size="11" fill="#8b949e">qua</text>
-<text x="56" y="183" text-anchor="end" font-size="11" fill="#8b949e">sex</text>
+<text x="64" y="94" font-size="12" fill="#8b949e">Oct</text>
+<text x="120" y="94" font-size="12" fill="#8b949e">Nov</text>
+<text x="190" y="94" font-size="12" fill="#8b949e">Dec</text>
+<text x="246" y="94" font-size="12" fill="#8b949e">Jan</text>
+<text x="302" y="94" font-size="12" fill="#8b949e">Feb</text>
+<text x="358" y="94" font-size="12" fill="#8b949e">Mar</text>
+<text x="428" y="94" font-size="12" fill="#8b949e">Apr</text>
+<text x="484" y="94" font-size="12" fill="#8b949e">May</text>
+<text x="554" y="94" font-size="12" fill="#8b949e">Jun</text>
+<text x="610" y="94" font-size="12" fill="#8b949e">Jul</text>
+<text x="666" y="94" font-size="12" fill="#8b949e">Aug</text>
+<text x="736" y="94" font-size="12" fill="#8b949e">Sep</text>
+<text x="792" y="94" font-size="12" fill="#8b949e">Oct</text>
+<text x="56" y="127" text-anchor="end" font-size="11" fill="#8b949e">Mon</text>
+<text x="56" y="155" text-anchor="end" font-size="11" fill="#8b949e">Wed</text>
+<text x="56" y="183" text-anchor="end" font-size="11" fill="#8b949e">Fri</text>
 <rect class="c" x="64" y="104" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:0.000s"/>
 <rect class="c" x="64" y="118" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:0.012s"/>
 <rect class="c" x="64" y="132" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:0.024s"/>
@@ -395,13 +395,13 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Me
 <rect class="c" x="778" y="188" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.347s"/>
 <rect class="c" x="792" y="104" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.300s"/>
 <rect class="c" x="792" y="118" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.312s"/>
-<rect class="c" x="792" y="132" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.324s"/>
-<text class="f" x="64" y="229" font-size="13" xml:space="preserve"><tspan fill="#e6edf3" font-weight="700">309</tspan><tspan fill="#8b949e"> contribuições no último ano</tspan></text>
-<text class="f" x="693" y="229" text-anchor="end" font-size="11" fill="#8b949e">menos</text>
+<rect class="c" x="792" y="132" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.324s"/>
+<text class="f" x="64" y="229" font-size="13" xml:space="preserve"><tspan fill="#e6edf3" font-weight="700">312</tspan><tspan fill="#8b949e"> contributions in the last year</tspan></text>
+<text class="f" x="693" y="229" text-anchor="end" font-size="11" fill="#8b949e">Less</text>
 <rect class="f" x="699" y="219" width="11" height="11" rx="2" fill="#161b22"/>
 <rect class="f" x="713" y="219" width="11" height="11" rx="2" fill="#0e4429"/>
 <rect class="f" x="727" y="219" width="11" height="11" rx="2" fill="#006d32"/>
 <rect class="f" x="741" y="219" width="11" height="11" rx="2" fill="#26a641"/>
 <rect class="f" x="755" y="219" width="11" height="11" rx="2" fill="#39d353"/>
-<text class="f" x="803" y="229" text-anchor="end" font-size="11" fill="#8b949e">mais</text>
+<text class="f" x="803" y="229" text-anchor="end" font-size="11" fill="#8b949e">More</text>
 </svg>

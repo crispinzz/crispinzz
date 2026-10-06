@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="504" viewBox="0 0 840 504" role="img" aria-labelledby="t">
-<title id="t">Estatísticas de crispinzz: sequência atual de 2 dias, 309 contribuições no último ano</title>
+<title id="t">crispinzz&#x27;s stats: current streak of 2 days, 312 contributions in the last year</title>
 <style>
 text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 .cur{animation:blink 1s steps(1) infinite}
@@ -13,42 +13,42 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Me
 <text x="420.0" y="20" text-anchor="middle" font-size="12" fill="#8b949e">crispinzz@github: ~/stats</text>
 <line x1="1" y1="32.5" x2="839" y2="32.5" stroke="#30363d"/>
 <text x="24" y="62" font-size="14" xml:space="preserve"><tspan fill="#39d353">crispinzz@github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">./stats.sh </tspan><tspan class="cur" fill="#e6edf3">█</tspan></text>
-<g class="card" style="animation-delay:0.10s"><rect x="24" y="80" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="40" y="106" font-size="13" fill="#8b949e">$ sequência atual</text><text x="40" y="142" font-size="30" font-weight="700" fill="#39d353" xml:space="preserve">2<tspan font-size="14" font-weight="400" fill="#8b949e"> dias</tspan></text><text x="40" y="164" font-size="12" fill="#8b949e">5 out – 6 out</text></g>
-<g class="card" style="animation-delay:0.18s"><rect x="292" y="80" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="308" y="106" font-size="13" fill="#8b949e">$ maior sequência</text><text x="308" y="142" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">6<tspan font-size="14" font-weight="400" fill="#8b949e"> dias</tspan></text><text x="308" y="164" font-size="12" fill="#8b949e">23 ago – 28 ago</text></g>
-<g class="card" style="animation-delay:0.26s"><rect x="560" y="80" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="576" y="106" font-size="13" fill="#8b949e">$ contribuições</text><text x="576" y="142" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">309</text><text x="576" y="164" font-size="12" fill="#8b949e">no último ano</text></g>
-<g class="card" style="animation-delay:0.34s"><rect x="24" y="188" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="40" y="214" font-size="13" fill="#8b949e">$ dias ativos</text><text x="40" y="250" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">39<tspan font-size="14" font-weight="400" fill="#8b949e"> / 367</tspan></text><text x="40" y="272" font-size="12" fill="#8b949e">11% do ano</text></g>
-<g class="card" style="animation-delay:0.42s"><rect x="292" y="188" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="308" y="214" font-size="13" fill="#8b949e">$ melhor dia</text><text x="308" y="250" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">29</text><text x="308" y="272" font-size="12" fill="#8b949e">14 ago</text></g>
-<g class="card" style="animation-delay:0.50s"><rect x="560" y="188" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="576" y="214" font-size="13" fill="#8b949e">$ média por dia ativo</text><text x="576" y="250" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">7,9</text><text x="576" y="272" font-size="12" fill="#8b949e">contribuições</text></g>
-<g class="card" style="animation-delay:.6s"><rect x="24" y="296" width="792" height="184" rx="8" fill="#161b22" stroke="#30363d"/><text x="40" y="322" font-size="13" fill="#8b949e">$ contribuições / mês</text></g>
+<g class="card" style="animation-delay:0.10s"><rect x="24" y="80" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="40" y="106" font-size="13" fill="#8b949e">$ current streak</text><text x="40" y="142" font-size="30" font-weight="700" fill="#39d353" xml:space="preserve">2<tspan font-size="14" font-weight="400" fill="#8b949e"> days</tspan></text><text x="40" y="164" font-size="12" fill="#8b949e">Oct 5 – Oct 6</text></g>
+<g class="card" style="animation-delay:0.18s"><rect x="292" y="80" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="308" y="106" font-size="13" fill="#8b949e">$ longest streak</text><text x="308" y="142" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">6<tspan font-size="14" font-weight="400" fill="#8b949e"> days</tspan></text><text x="308" y="164" font-size="12" fill="#8b949e">Aug 23 – Aug 28</text></g>
+<g class="card" style="animation-delay:0.26s"><rect x="560" y="80" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="576" y="106" font-size="13" fill="#8b949e">$ contributions</text><text x="576" y="142" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">312</text><text x="576" y="164" font-size="12" fill="#8b949e">in the last year</text></g>
+<g class="card" style="animation-delay:0.34s"><rect x="24" y="188" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="40" y="214" font-size="13" fill="#8b949e">$ active days</text><text x="40" y="250" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">39<tspan font-size="14" font-weight="400" fill="#8b949e"> / 367</tspan></text><text x="40" y="272" font-size="12" fill="#8b949e">11% of the year</text></g>
+<g class="card" style="animation-delay:0.42s"><rect x="292" y="188" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="308" y="214" font-size="13" fill="#8b949e">$ best day</text><text x="308" y="250" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">29</text><text x="308" y="272" font-size="12" fill="#8b949e">Aug 14</text></g>
+<g class="card" style="animation-delay:0.50s"><rect x="560" y="188" width="256" height="96" rx="8" fill="#161b22" stroke="#30363d"/><text x="576" y="214" font-size="13" fill="#8b949e">$ avg / active day</text><text x="576" y="250" font-size="30" font-weight="700" fill="#e6edf3" xml:space="preserve">8.0</text><text x="576" y="272" font-size="12" fill="#8b949e">contributions</text></g>
+<g class="card" style="animation-delay:.6s"><rect x="24" y="296" width="792" height="184" rx="8" fill="#161b22" stroke="#30363d"/><text x="40" y="322" font-size="13" fill="#8b949e">$ contributions / month</text></g>
 <rect class="b" x="60.9" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:0.80s"/>
-<text x="76.6" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.80s">out</text>
+<text x="76.6" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.80s">Oct</text>
 <rect class="b" x="118.1" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:0.85s"/>
-<text x="133.8" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.85s">nov</text>
+<text x="133.8" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.85s">Nov</text>
 <rect class="b" x="175.3" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:0.90s"/>
-<text x="191.0" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.90s">dez</text>
+<text x="191.0" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.90s">Dec</text>
 <rect class="b" x="232.6" y="443" width="31.476923076923082" height="3" rx="3" fill="#26a641" style="animation-delay:0.95s"/>
 <text class="v" x="248.3" y="436" text-anchor="middle" font-size="11" fill="#8b949e" font-weight="400" style="animation-delay:1.45s">2</text>
-<text x="248.3" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.95s">jan</text>
+<text x="248.3" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:0.95s">Jan</text>
 <rect class="b" x="289.8" y="443" width="31.476923076923082" height="3" rx="3" fill="#26a641" style="animation-delay:1.00s"/>
 <text class="v" x="305.5" y="436" text-anchor="middle" font-size="11" fill="#8b949e" font-weight="400" style="animation-delay:1.50s">3</text>
-<text x="305.5" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.00s">fev</text>
+<text x="305.5" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.00s">Feb</text>
 <rect class="b" x="347.0" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:1.05s"/>
-<text x="362.7" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.05s">mar</text>
+<text x="362.7" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.05s">Mar</text>
 <rect class="b" x="404.3" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:1.10s"/>
-<text x="420.0" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.10s">abr</text>
+<text x="420.0" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.10s">Apr</text>
 <rect class="b" x="461.5" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:1.15s"/>
-<text x="477.2" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.15s">mai</text>
+<text x="477.2" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.15s">May</text>
 <rect class="b" x="518.7" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:1.20s"/>
-<text x="534.4" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.20s">jun</text>
+<text x="534.4" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.20s">Jun</text>
 <rect class="b" x="576.0" y="444" width="31.476923076923082" height="2" rx="3" fill="#30363d" style="animation-delay:1.25s"/>
-<text x="591.7" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.25s">jul</text>
+<text x="591.7" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.25s">Jul</text>
 <rect class="b" x="633.2" y="358" width="31.476923076923082" height="88" rx="3" fill="#39d353" style="animation-delay:1.30s"/>
 <text class="v" x="648.9" y="351" text-anchor="middle" font-size="11" fill="#e6edf3" font-weight="700" style="animation-delay:1.80s">151</text>
-<text x="648.9" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.30s">ago</text>
+<text x="648.9" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.30s">Aug</text>
 <rect class="b" x="690.4" y="389" width="31.476923076923082" height="57" rx="3" fill="#26a641" style="animation-delay:1.35s"/>
 <text class="v" x="706.1" y="382" text-anchor="middle" font-size="11" fill="#8b949e" font-weight="400" style="animation-delay:1.85s">98</text>
-<text x="706.1" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.35s">set</text>
-<rect class="b" x="747.6" y="414" width="31.476923076923082" height="32" rx="3" fill="#26a641" style="animation-delay:1.40s"/>
-<text class="v" x="763.3" y="407" text-anchor="middle" font-size="11" fill="#8b949e" font-weight="400" style="animation-delay:1.90s">55</text>
-<text x="763.3" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.40s">out</text>
+<text x="706.1" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.35s">Sep</text>
+<rect class="b" x="747.6" y="412" width="31.476923076923082" height="34" rx="3" fill="#26a641" style="animation-delay:1.40s"/>
+<text class="v" x="763.3" y="405" text-anchor="middle" font-size="11" fill="#8b949e" font-weight="400" style="animation-delay:1.90s">58</text>
+<text x="763.3" y="466" text-anchor="middle" font-size="11" fill="#8b949e" class="v" style="animation-delay:1.40s">Oct</text>
 </svg>

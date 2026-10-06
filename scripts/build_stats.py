@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Gera os SVGs do topo do README a partir do calendário público de
-contribuições do GitHub (o mesmo HTML que a página do perfil usa):
+Builds the SVGs at the top of the README from GitHub's public contribution
+calendar (the same HTML the profile page uses):
 
-    assets/contributions.svg  heatmap animado do último ano
-    assets/stats.svg          cards de sequência, totais e barras por mês
+    assets/contributions.svg  animated heatmap of the last year
+    assets/stats.svg          streak cards, totals and monthly bars
 
-Só usa a biblioteca padrão. Roda todo dia pelo
+Standard library only. Runs daily via
 .github/workflows/update-stats.yml.
 
-    python scripts/build_stats.py [usuario]
+    python scripts/build_stats.py [username]
 """
 import datetime as dt
 import html
@@ -22,10 +22,10 @@ USER = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("GH_USER", "crispinz
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(ROOT, "assets")
 
-MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+MESES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONO = "'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
 
-# paleta do GitHub no tema escuro
+# GitHub dark theme palette
 BG = "#0d1117"
 PANEL = "#161b22"
 BORDER = "#30363d"
@@ -34,7 +34,7 @@ MUTED = "#8b949e"
 GREEN = "#39d353"
 LEVELS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 
-W = 840  # os dois SVGs têm a mesma largura para empilhar alinhados
+W = 840  # both SVGs share a width so they stack aligned
 
 
 # ---------------------------------------------------------------- dados
@@ -56,7 +56,7 @@ def fetch_days(user):
             continue
         cid = re.search(r'\bid="([^"]+)"', tag)
         level = re.search(r'data-level="(\d)"', tag)
-        # "No contributions on ..." não casa e vira 0
+        # "No contributions on ..." does not match and becomes 0
         n = re.match(r"([\d,]+) contributions?", tips.get(cid.group(1), "") if cid else "")
         days.append({
             "date": dt.date.fromisoformat(date.group(1)),
@@ -65,18 +65,18 @@ def fetch_days(user):
         })
 
     if not days:
-        sys.exit("nenhum dia encontrado no calendário: o HTML do GitHub pode ter mudado")
+        sys.exit("no days found in the calendar: GitHub markup may have changed")
     days.sort(key=lambda d: d["date"])
 
     shown = re.search(r"([\d,]+)\s+contributions?\s+in the last year", page)
     total = sum(d["count"] for d in days)
     if shown and int(shown.group(1).replace(",", "")) != total:
-        print(f"aviso: soma dos dias ({total}) difere do total do GitHub ({shown.group(1)})")
+        print(f"warning: sum of days ({total}) differs from GitHub total ({shown.group(1)})")
     return days
 
 
 def runs_of_activity(days):
-    """Intervalos [ini, fim] (índices) de dias seguidos com contribuição."""
+    """[start, end] index ranges of consecutive days with contributions."""
     runs, start = [], None
     for i, d in enumerate(days):
         if d["count"] and start is None:
@@ -92,7 +92,7 @@ def runs_of_activity(days):
 def compute_stats(days):
     runs = runs_of_activity(days)
     last = len(days) - 1
-    # hoje ainda não acabou: um dia zerado hoje não quebra a sequência
+    # today is not over yet: an empty today does not break the streak
     alive = last if days[last]["count"] else last - 1
     current = next((r for r in runs if r[1] == alive), None)
     longest = max(runs, key=lambda r: (r[1] - r[0], r[1]), default=None)
@@ -129,11 +129,11 @@ def esc(s):
 
 
 def fmt_int(n):
-    return f"{n:,}".replace(",", ".")
+    return f"{n:,}"
 
 
 def fmt_date(d):
-    return f"{d.day} {MESES[d.month - 1]}"
+    return f"{MESES[d.month - 1]} {d.day}"
 
 
 def fmt_range(a, b):
@@ -147,7 +147,7 @@ def plural(n, one, many):
 # ---------------------------------------------------------------- render
 
 def window(h, title, cmd, desc, css, body):
-    """Moldura de terminal com barra de título e a linha de comando."""
+    """Terminal window frame with title bar and command prompt."""
     prompt = (
         f'<tspan fill="{GREEN}">{esc(USER)}@github</tspan>'
         f'<tspan fill="{MUTED}">:~$ </tspan>'
@@ -177,7 +177,7 @@ text{{font-family:{MONO}}}
 def render_heatmap(days, stats):
     step, cell = 14, 11
     first = days[0]["date"]
-    origin = first - dt.timedelta(days=(first.weekday() + 1) % 7)  # domingo da 1ª coluna
+    origin = first - dt.timedelta(days=(first.weekday() + 1) % 7)  # Sunday of the first column
 
     def pos(d):
         off = (d - origin).days
@@ -185,23 +185,23 @@ def render_heatmap(days, stats):
 
     ncols = pos(days[-1]["date"])[0] + 1
     gw = ncols * step - (step - cell)
-    gx = (W - gw) // 2 + 14  # +14 compensa os rótulos dos dias à esquerda
+    gx = (W - gw) // 2 + 14  # +14 offsets the weekday labels on the left
     gy = 104
     out = []
 
-    # meses: rótulo na primeira coluna cujo domingo cai num mês novo
+    # month label on the first column whose Sunday falls in a new month
     labels, prev = [], None
     for c in range(ncols):
         m = (origin + dt.timedelta(weeks=c)).month
         if m != prev:
             labels.append((c, m))
             prev = m
-    # como o GitHub, some com o rótulo que ficaria colado no seguinte
+    # like GitHub, drop a label that would crowd the next one
     labels = [l for i, l in enumerate(labels) if i + 1 == len(labels) or labels[i + 1][0] - l[0] >= 3]
     for c, m in labels:
         out.append(f'<text x="{gx + c * step}" y="{gy - 10}" font-size="12" fill="{MUTED}">{MESES[m - 1]}</text>')
 
-    for r, name in ((1, "seg"), (3, "qua"), (5, "sex")):
+    for r, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
         out.append(f'<text x="{gx - 8}" y="{gy + r * step + 9}" text-anchor="end" font-size="11" fill="{MUTED}">{name}</text>')
 
     for d in days:
@@ -216,14 +216,14 @@ def render_heatmap(days, stats):
     out.append(
         f'<text class="f" x="{gx}" y="{fy}" font-size="13" xml:space="preserve">'
         f'<tspan fill="{TEXT}" font-weight="700">{fmt_int(total)}</tspan>'
-        f'<tspan fill="{MUTED}"> {plural(total, "contribuição", "contribuições")} no último ano</tspan></text>'
+        f'<tspan fill="{MUTED}"> {plural(total, "contribution", "contributions")} in the last year</tspan></text>'
     )
     right = gx + gw
     box0 = right - 34 - 5 * step
-    out.append(f'<text class="f" x="{box0 - 6}" y="{fy}" text-anchor="end" font-size="11" fill="{MUTED}">menos</text>')
+    out.append(f'<text class="f" x="{box0 - 6}" y="{fy}" text-anchor="end" font-size="11" fill="{MUTED}">Less</text>')
     for i, color in enumerate(LEVELS):
         out.append(f'<rect class="f" x="{box0 + i * step}" y="{fy - 10}" width="{cell}" height="{cell}" rx="2" fill="{color}"/>')
-    out.append(f'<text class="f" x="{right}" y="{fy}" text-anchor="end" font-size="11" fill="{MUTED}">mais</text>')
+    out.append(f'<text class="f" x="{right}" y="{fy}" text-anchor="end" font-size="11" fill="{MUTED}">More</text>')
 
     css = (
         ".c{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .35s ease-out forwards}"
@@ -232,7 +232,7 @@ def render_heatmap(days, stats):
         "@keyframes fade{to{opacity:1}}"
         "@media (prefers-reduced-motion:reduce){.c,.f{animation:none;opacity:1;transform:none}}"
     )
-    desc = f"Gráfico de contribuições de {USER} no GitHub: {fmt_int(total)} no último ano"
+    desc = f"{USER}'s GitHub contribution graph: {fmt_int(total)} in the last year"
     return window(fy + 24, f"{USER}@github: ~/contributions", "./contributions.sh", desc, css, "\n".join(out))
 
 
@@ -258,14 +258,14 @@ def render_stats(stats):
     pct = round(100 * stats["active"] / stats["n_days"])
 
     cards = [
-        ("sequência atual", cur_n, plural(cur_n, " dia", " dias"),
-         fmt_range(cur_a, cur_b) if cur_n else "nenhuma em andamento", cur_n > 0),
-        ("maior sequência", lon_n, plural(lon_n, " dia", " dias"),
-         fmt_range(lon_a, lon_b) if lon_n else "ainda não começou", False),
-        ("contribuições", fmt_int(stats["total"]), "", "no último ano", False),
-        ("dias ativos", stats["active"], f" / {stats['n_days']}", f"{pct}% do ano", False),
-        ("melhor dia", best["count"], "", fmt_date(best["date"]) if best["count"] else "—", False),
-        ("média por dia ativo", f"{stats['avg']:.1f}".replace(".", ","), "", "contribuições", False),
+        ("current streak", cur_n, plural(cur_n, " day", " days"),
+         fmt_range(cur_a, cur_b) if cur_n else "no active streak", cur_n > 0),
+        ("longest streak", lon_n, plural(lon_n, " day", " days"),
+         fmt_range(lon_a, lon_b) if lon_n else "not started yet", False),
+        ("contributions", fmt_int(stats["total"]), "", "in the last year", False),
+        ("active days", stats["active"], f" / {stats['n_days']}", f"{pct}% of the year", False),
+        ("best day", best["count"], "", fmt_date(best["date"]) if best["count"] else "—", False),
+        ("avg / active day", f"{stats['avg']:.1f}", "", "contributions", False),
     ]
     out = []
     for i, (label, value, unit, sub, accent) in enumerate(cards):
@@ -273,11 +273,11 @@ def render_stats(stats):
         y = 80 + (i // 3) * (ch + gap)
         out.append(card(x, y, cw, ch, label, value, unit, sub, 0.1 + i * 0.08, accent))
 
-    # barras por mês
+    # monthly bars
     bx, by, bw_, bh = pad, 80 + 2 * (ch + gap), W - 2 * pad, 184
     out.append(f'<g class="card" style="animation-delay:.6s">'
                f'<rect x="{bx}" y="{by}" width="{bw_}" height="{bh}" rx="8" fill="{PANEL}" stroke="{BORDER}"/>'
-               f'<text x="{bx + 16}" y="{by + 26}" font-size="13" fill="{MUTED}">$ contribuições / mês</text></g>')
+               f'<text x="{bx + 16}" y="{by + 26}" font-size="13" fill="{MUTED}">$ contributions / month</text></g>')
     months = stats["months"]
     left, right = bx + 24, bx + bw_ - 24
     slot = (right - left) / len(months)
@@ -312,8 +312,8 @@ def render_stats(stats):
         "@keyframes fade{to{opacity:1}}"
         "@media (prefers-reduced-motion:reduce){.card,.b,.v{animation:none;opacity:1;transform:none}}"
     )
-    desc = (f"Estatísticas de {USER}: sequência atual de {cur_n} {plural(cur_n, 'dia', 'dias')}, "
-            f"{fmt_int(stats['total'])} contribuições no último ano")
+    desc = (f"{USER}'s stats: current streak of {cur_n} {plural(cur_n, 'day', 'days')}, "
+            f"{fmt_int(stats['total'])} contributions in the last year")
     return window(by + bh + 24, f"{USER}@github: ~/stats", "./stats.sh", desc, css, "\n".join(out))
 
 
@@ -330,8 +330,8 @@ def main():
     os.makedirs(ASSETS, exist_ok=True)
     write("contributions.svg", render_heatmap(days, stats))
     write("stats.svg", render_stats(stats))
-    print(f"{USER}: {stats['total']} contribuições, {stats['active']} dias ativos, "
-          f"sequência atual {stats['current'][0]}, maior {stats['longest'][0]}")
+    print(f"{USER}: {stats['total']} contributions, {stats['active']} active days, "
+          f"current streak {stats['current'][0]}, longest {stats['longest'][0]}")
 
 
 if __name__ == "__main__":
