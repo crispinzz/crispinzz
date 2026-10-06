@@ -9,13 +9,6 @@
 <br>
 <br>
 
-<h3><code>crispinzz@github ~ $ ls projects/</code></h3>
-
-<a href="https://github.com/crispinzz/time-calibrator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=crispinzz&repo=time-calibrator&theme=github_dark&hide_border=true&bg_color=0d1117" alt="time-calibrator" /></a>
-
-<br>
-<br>
-
 <h3><code>crispinzz@github ~ $ ./links.sh</code></h3>
 
 <p><b>Developer · Product Builder · Automation</b></p>
