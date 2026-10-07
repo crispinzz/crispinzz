@@ -1,11 +1,11 @@
 name: Update stats
 
 # Regenerates assets/contributions.svg and assets/stats.svg from real
-# contribution data. Runs daily, when the generator changes, and on demand.
+# contribution data. Runs every 10 minutes, when the generator changes, and on demand.
 
 on:
   schedule:
-    - cron: "0 9 * * *" # 06:00 in São Paulo
+    - cron: "*/10 * * * *" # Every 10 minutes
   workflow_dispatch:
   push:
     branches: [main]
