@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="253" viewBox="0 0 840 253" role="img" aria-labelledby="t">
-<title id="t">crispinzz&#x27;s GitHub contribution graph: 355 in the last year</title>
+<title id="t">crispinzz&#x27;s GitHub contribution graph: 362 in the last year</title>
 <style>
 text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 .cur{animation:blink 1s steps(1) infinite}
@@ -342,21 +342,21 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Me
 <rect class="c" x="680" y="132" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.124s"/>
 <rect class="c" x="680" y="146" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.136s"/>
 <rect class="c" x="680" y="160" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.148s"/>
-<rect class="c" x="680" y="174" width="11" height="11" rx="2" fill="#39d353" style="animation-delay:1.160s"/>
+<rect class="c" x="680" y="174" width="11" height="11" rx="2" fill="#26a641" style="animation-delay:1.160s"/>
 <rect class="c" x="680" y="188" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.172s"/>
 <rect class="c" x="694" y="104" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.125s"/>
 <rect class="c" x="694" y="118" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.137s"/>
 <rect class="c" x="694" y="132" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.149s"/>
 <rect class="c" x="694" y="146" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.161s"/>
-<rect class="c" x="694" y="160" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.173s"/>
-<rect class="c" x="694" y="174" width="11" height="11" rx="2" fill="#26a641" style="animation-delay:1.185s"/>
+<rect class="c" x="694" y="160" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.173s"/>
+<rect class="c" x="694" y="174" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.185s"/>
 <rect class="c" x="694" y="188" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.197s"/>
 <rect class="c" x="708" y="104" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.150s"/>
 <rect class="c" x="708" y="118" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.162s"/>
 <rect class="c" x="708" y="132" width="11" height="11" rx="2" fill="#26a641" style="animation-delay:1.174s"/>
 <rect class="c" x="708" y="146" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.186s"/>
 <rect class="c" x="708" y="160" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.198s"/>
-<rect class="c" x="708" y="174" width="11" height="11" rx="2" fill="#26a641" style="animation-delay:1.210s"/>
+<rect class="c" x="708" y="174" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.210s"/>
 <rect class="c" x="708" y="188" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.222s"/>
 <rect class="c" x="722" y="104" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.175s"/>
 <rect class="c" x="722" y="118" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.187s"/>
@@ -367,7 +367,7 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Me
 <rect class="c" x="722" y="188" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.247s"/>
 <rect class="c" x="736" y="104" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.200s"/>
 <rect class="c" x="736" y="118" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.212s"/>
-<rect class="c" x="736" y="132" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.224s"/>
+<rect class="c" x="736" y="132" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.224s"/>
 <rect class="c" x="736" y="146" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.236s"/>
 <rect class="c" x="736" y="160" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.248s"/>
 <rect class="c" x="736" y="174" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.260s"/>
@@ -390,14 +390,14 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Me
 <rect class="c" x="778" y="118" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.287s"/>
 <rect class="c" x="778" y="132" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.299s"/>
 <rect class="c" x="778" y="146" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.311s"/>
-<rect class="c" x="778" y="160" width="11" height="11" rx="2" fill="#26a641" style="animation-delay:1.323s"/>
-<rect class="c" x="778" y="174" width="11" height="11" rx="2" fill="#39d353" style="animation-delay:1.335s"/>
+<rect class="c" x="778" y="160" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.323s"/>
+<rect class="c" x="778" y="174" width="11" height="11" rx="2" fill="#26a641" style="animation-delay:1.335s"/>
 <rect class="c" x="778" y="188" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.347s"/>
 <rect class="c" x="792" y="104" width="11" height="11" rx="2" fill="#161b22" style="animation-delay:1.300s"/>
 <rect class="c" x="792" y="118" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay:1.312s"/>
 <rect class="c" x="792" y="132" width="11" height="11" rx="2" fill="#006d32" style="animation-delay:1.324s"/>
 <rect class="c" x="792" y="146" width="11" height="11" rx="2" fill="#39d353" style="animation-delay:1.336s"/>
-<text class="f" x="64" y="229" font-size="13" xml:space="preserve"><tspan fill="#e6edf3" font-weight="700">355</tspan><tspan fill="#8b949e"> contributions in the last year</tspan></text>
+<text class="f" x="64" y="229" font-size="13" xml:space="preserve"><tspan fill="#e6edf3" font-weight="700">362</tspan><tspan fill="#8b949e"> contributions in the last year</tspan></text>
 <text class="f" x="693" y="229" text-anchor="end" font-size="11" fill="#8b949e">Less</text>
 <rect class="f" x="699" y="219" width="11" height="11" rx="2" fill="#161b22"/>
 <rect class="f" x="713" y="219" width="11" height="11" rx="2" fill="#0e4429"/>
