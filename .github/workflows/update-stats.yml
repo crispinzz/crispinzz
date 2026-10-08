@@ -1,20 +1,23 @@
 name: Update stats
 
 # Regenerates assets/contributions.svg and assets/stats.svg from real
-# contribution data. Runs every 10 minutes, when the generator changes, and on demand.
+# contribution data. Scheduled twice an hour on off-peak minutes (GitHub's
+# cron is best-effort, so runs may be delayed), on every push to main, and
+# on demand.
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # Every 10 minutes
+    - cron: "7,37 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - "scripts/**"
-      - ".github/workflows/update-stats.yml"
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
 
 jobs:
   stats:

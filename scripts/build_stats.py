@@ -6,7 +6,7 @@ calendar (the same HTML the profile page uses):
     assets/contributions.svg  animated heatmap of the last year
     assets/stats.svg          streak cards, totals and monthly bars
 
-Standard library only. Runs daily via
+Standard library only. Runs on a schedule via
 .github/workflows/update-stats.yml.
 
     python scripts/build_stats.py [username]
